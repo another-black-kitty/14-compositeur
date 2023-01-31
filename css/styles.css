@@ -18,7 +18,6 @@ img {
   display: flex;
   flex-direction: row;
   margin: var(--marge);
-  margin-bottom: 60px;
 }
 
 .column {
@@ -27,15 +26,16 @@ img {
 
 h1 {
   font-family: 'Unbounded', cursive;
-  font-size: 65px;
+  font-size: 60px;
   text-align: center;
   font-weight: 900;
   margin: 0 0 10px;
+  padding: 5px;
 }
 
-img .backgrd {
+.mer {
   margin-bottom: 0;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .column img {
@@ -48,4 +48,36 @@ img .backgrd {
   color: var(--black);
   padding: var(--marge);
   padding-top: 10px;
+}
+
+iframe {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.title-ari {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+.ari-city {
+  margin-top: 200px;
+}
+
+.bio {
+  padding-top: 10px;
+}
+
+.text {
+  margin: var(--marge);
+  margin-top: 40px;
+}
+
+.gif-car {
+  margin: auto;
+  padding: 100px 0;
+  width: 150%;
+
 }
