@@ -7,7 +7,7 @@ body {
   --yellow: #E3B127;
   --black: #010200;
   font-family: 'Sofia Sans', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 img {
@@ -29,11 +29,24 @@ img {
 h1 {
   font-family: 'Unbounded', cursive;
   font-size: 60px;
-  text-align: center;
+  text-align: left;
   font-weight: 900;
   margin: 0 0 10px;
   padding: 5px;
 }
+
+.audio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  margin: auto;
+  padding: 0;
+  width: 300px; 
+  height: 150px;
+}
+
 
 .mer {
   margin-bottom: 0;
@@ -106,4 +119,52 @@ footer p {
   margin: 70px;
   text-align: center;
   font-size: 11px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: var(--black);
+  border: 2px solid var(--black);
+}
+
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button {
+  background-color: var(--yellow);
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: var(--yellow);
+}
+
+
+audio::-webkit-media-controls-timeline {
+  background-color: var(--yellow);
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.audio-player {
+  width: 350px;
+  height: 150% ;
+}
+
+.icon-container {
+  width: 355px;
+  height: 100px;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  margin: 50px 0;
+}
+
+.audio-icon {
+   width: 10%;
+   height: 50%;
+  padding-right: 5px;
 }
