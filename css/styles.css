@@ -125,9 +125,15 @@ footer p {
   font-size: 11px;
 }
 
+audio {
+  box-shadow: none;
+}
+
 audio::-webkit-media-controls-panel {
   background-color: var(--black);
   border: 2px solid var(--black);
+  background-image: linear-gradient(transparent, transparent);
+  box-shadow: none;
 }
 
 audio::-webkit-media-controls-mute-button,
