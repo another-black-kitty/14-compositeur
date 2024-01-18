@@ -4,10 +4,14 @@ body {
   background: var(--black);
   color: var(--yellow);
   --marge: 0 10px 0 15px;
-  --yellow: #E3B127;
+  --yellow: #e3b127;
   --black: #010200;
-  font-family: 'Sofia Sans', sans-serif;
+  font-family: "Sofia Sans", sans-serif;
   font-size: 16px;
+}
+
+*::selection {
+  background: #b38c20b6;
 }
 
 img {
@@ -27,7 +31,7 @@ img {
 }
 
 h1 {
-  font-family: 'Unbounded', cursive;
+  font-family: "Unbounded", cursive;
   font-size: 60px;
   text-align: left;
   font-weight: 900;
@@ -43,10 +47,9 @@ h1 {
 iframe {
   margin: auto;
   padding: 0;
-  width: 300px; 
+  width: 300px;
   height: 150px;
 }
-
 
 .mer {
   margin-bottom: 0;
@@ -108,16 +111,15 @@ iframe {
 .synopsis {
   display: flex;
   flex-direction: column;
-  padding: 0 25px 40px; 
+  padding: 0 25px 40px;
 }
 
 h2 {
   text-align: left;
-  font-family: 'Unbounded', cursive;
+  font-family: "Unbounded", cursive;
   font-size: 50px;
   margin-bottom: 20px;
 }
-
 
 footer p {
   margin: 70px;
@@ -140,7 +142,6 @@ audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
   color: var(--yellow);
 }
-
 
 audio::-webkit-media-controls-timeline {
   background-color: var(--yellow);
@@ -197,12 +198,12 @@ audio::-webkit-media-controls-volume-slider-container {
   background-color: var(--black);
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  width: 310px
+  width: 310px;
 }
 
 .audio-player {
   width: 345px;
-  height: 150% ;
+  height: 150%;
   padding-bottom: 100px;
   margin-top: 50px;
 }
